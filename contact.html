@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="..\vm website\css\contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="..\vm website\Images\logo black no bg.png" sizes="20x20">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-wrapper fixed white">
+              <div class="container">
+                    <a href="index.html" class="brand-logo" id="brand">Verba Maximus</a>
+                    <a href="#" class="sidenav-trigger" data-target="mobile-links">
+                        <img class="img1" src="..\vm website\Images\hamburger.png" alt="menu">
+                    </a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="schedule.html">Schedule</a></li>
+                        <li><a href="register.html" class="cta">
+                                <button class="button1">
+                                    Register
+                                </button>
+                        </a></li>
+                    </ul>
+              </div> 
+            </div>
+          </nav>
+          <ul class="sidenav" id="mobile-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="register.html">Register</a></li>
+          </ul>
+          </header>
+          <main>
+            <div class="container center">
+                <h3 class="center cu">Contact Us</h3>
+                <form action="" method="POST">
+                    <div class="form">
+                        <div class="row name">
+                            <form class="col s12">
+                              <div class="container">
+                              </div>
+                              <div class="row center"></div>
+                                <div class="input-field col s6">
+                                  <input id="icon_prefix" type="text" class="validate">
+                                  <label for="icon_prefix">First Name</label>
+                                </div>
+                                <div class="input-field col s6">
+                                  <input id="icon_telephone" type="tel" class="validate">
+                                  <label for="icon_telephone">Phone</label>
+                                </div>
+                                <div class="row center">
+                                    <form class="col s10">
+                                      <div class="row">
+                                        <div class="input-field col s12">
+                                          <input id="email" type="email" class="validate">
+                                          <label for="email">Email</label>
+                                          <span class="helper-text" data-error="wrong" data-success="right"></span>
+                                        </div>
+                                      </div>
+                                    </form>
+                                  </div>
+                              </div>
+                              <div class="row">
+                                <form class="col s12">
+                                  <div class="row">
+                                    <div class="input-field col s12">
+                                      <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                      <label for="textarea1">Message/Query</label>
+                                    </div>
+                                  </div>
+                                </form>
+                              </div>
+                              <div class="row">
+                                  <a href="mailto:f20180559@hyderabad.bits-pilani.gmail.com?Subject=VM%20query" target="_top"></a>
+                                  <button class="submit" type="submit">
+                                    Submit
+                                  </button>
+                              </div>
+                              <div class="container center qm">
+                                <p><b>For further queries, feel free to drop a Message or call us on +919757095043</b></p>
+                            </div>
+                            <div class="center">
+                                <img src="..\vm website\Images\logo black no bg.png" alt="logo" width="75px">
+                            </div>
+                            <div class="row links">
+                                <div class="col s4 center face">
+                                    <a href="https://www.facebook.com/verbamaximus/"><b>Facebook</b></a>                                    
+                                </div>
+                                <div class="col s4 center insta">
+                                    <a href="https://www.instagram.com/vm.bphc/"><b>Instagram</b></a>
+                                </div>
+                                <div class="col s4 center youtube">
+                                    <a href="https://www.youtube.com/channel/UC3eomI73rnwHqKK5j7aR-qw"><b>YouTube</b></a>
+                                </div>
+                            </div>
+                            </form>
+                          </div>
+                    </div>
+                </form>
+            </div>
+          </main>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script>
+          $(document).ready(function(){
+            $('.sidenav').sidenav();
+          });
+          $(document).ready(function(){
+          $('.carousel.carousel-slider').carousel();
+          });
+          $('#textarea1').val('New Text');
+  M.textareaAutoResize($('#textarea1'));
+      </script>
+</body>
+</html>

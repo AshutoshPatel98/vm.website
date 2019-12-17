@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+.nav-extended, .nav-wrapper{
+    background-image: url(../Images/Background.jpg);
+    font-family: "quicksand", sans-serif;
+}
+.right :hover{
+    color: #0D6FCF;
+}
+.img1{
+    width: 30px;
+    height: auto;
+    padding-top: 20px;
+}
+#brand{
+    font-family: "quicksand",sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+}
+.button1{
+    padding: 9px 25px;
+    color: white;
+    background-color: #0D6FCF;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: white;
+}
+#speak, #write, #others{
+    padding: 0% 10%;
+}
+.content, h4{
+    font-family: "quicksand",sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+}
+.debate{
+    background-color: rgb(255, 188, 2);
+}
+.sots{
+    background-image: url(../Images/Background.jpg);
+}
+.others{
+    background-color: crimson;
+}
+footer{
+    margin-top: 10%;
+    padding-bottom: 2%;
+    background-image:url(../Images/Background.jpg) ;
+}
+li:hover{
+    color:#0D6FCF ;
+}
+.logo{
+    height: 100px;
+    width: auto;
+}
+.e{
+    color: white;
+    
+}

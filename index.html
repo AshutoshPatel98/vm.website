@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="..\vm website\css\landing.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="shortcut icon" type="image/png" href="..\vm website\Images\logo black no bg.png" sizes="20x20">
+    <title>Verba Maximus</title>
+</head>
+<body>
+        <header>
+                <nav>
+                    <div class="nav-wrapper fixed white">
+                      <div class="container">
+                            <a href="index.html" class="brand-logo" id="brand">Verba Maximus</a>
+                            <a href="#" class="sidenav-trigger" data-target="mobile-links">
+                                <img class="img1" src="..\vm website\Images\hamburger.png" alt="menu">
+                            </a>
+                            <ul class="right hide-on-med-and-down">
+                                <li><a href="home.html">Home</a></li>
+                                <li><a href="events.html">Events</a></li>
+                                <li><a href="#">Team</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="schedule.html">Schedule</a></li>
+                                <li><a href="register.html" class="cta">
+                                        <button class="button1">
+                                            Register
+                                        </button>
+                                </a></li>
+                            </ul>
+                      </div> 
+                    </div>
+                  </nav>
+                  <ul class="sidenav" id="mobile-links">
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="schedule.html">Schedule</a></li>
+                        <li><a href="register.html">Register</a></li>
+                  </ul>
+                  </header>
+                  <main class="main center">
+                        <div class="brand">
+                                <p class="Verba center"> Verba Maximus <b class="year">2020</b></p></p>
+                                <hr>
+                                <div class="countdown center">
+                                    <table class="table center">
+                                        <tr class="signify">
+                                            <td class="center">Days</td>
+                                            <td class="center">Hours</td>
+                                            <td class="center">Minutes</td>
+                                            <td class="sec center">Seconds</td>
+                                        </tr>
+                                        <tr class="data">
+                                            <td id="days" class="center">61</td>
+                                            <td id="hours" class="center">4</td>
+                                            <td id="minutes" class="center">12</td>
+                                            <td id="sec" class="sec center">22</td>
+                                        </tr>
+                                    </table>
+                                    <script type="text/javascript">
+                                        function countdown(){
+                                            var now = new Date();
+                                            var eventdate = new Date(2020,0,19,9,0,0);
+                            
+                                            var currentTime = now.getTime();
+                                            var eventTime = eventdate.getTime();
+                                            var remTime = eventTime - currentTime;
+                            
+                                            var s= Math.floor(remTime/1000);
+                                            var m= Math.floor(s/60);
+                                            var h= Math.floor(m/60);
+                                            var d= Math.floor(h/24);
+                            
+                                            h %= 24;
+                                            m %= 60;
+                                            s %= 60;
+                            
+                                            h = (h<10) ? "0" + h:h;
+                                            m = (m<10) ? "0" + m:m;
+                                            s = (s<10) ? "0" + s:s;
+                            
+                                            document.getElementById("days").textContent = d;
+                                            document.getElementById("days").innerText = d;
+                            
+                                            document.getElementById("hours").textContent = h;
+                                            document.getElementById("minutes").textContent = m;
+                                            document.getElementById("sec").textContent = s;
+                            
+                                            setTimeout(countdown, 1000);
+                                        }
+                        countdown();
+                    </script>
+                </div>
+            </div>
+            <div>
+                <p class=" text center">
+                    Registrations opening soon
+                </p>
+            </div>
+                  </main>
+                  <footer>
+                      <ul class="center">
+                          <li class="face"><a href="https://www.facebook.com/verbamaximus/">Facebook</a></li>
+                          <li class="insta"><a href="https://www.instagram.com/vm.bphc/">Instagram</a></li>
+                          <li class="youtube"><a href="https://www.youtube.com/channel/UC3eomI73rnwHqKK5j7aR-qw">Youtube</a></li>
+                          <li class="copy">&copy; Verba Maximus 2020</li>
+                      </ul>
+                  </footer>
+                  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script>
+          $(document).ready(function(){
+            $('.sidenav').sidenav();
+          });
+          $(document).ready(function(){
+          $('.carousel.carousel-slider').carousel();
+          });
+      </script>
+</body>
+</html>

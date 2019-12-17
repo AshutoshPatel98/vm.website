@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+.nav-wrapper{
+    background-image: url(../Images/Background.jpg);
+    font-family: "quicksand", sans-serif;
+}
+.right :hover{
+    color: #0D6FCF;
+}
+.img1{
+    width: 30px;
+    height: auto;
+    padding-top: 20px;
+}
+#brand{
+    font-family: "quicksand",sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+}
+.button1{
+    padding: 9px 25px;
+    color: white;
+    background-color: #0D6FCF;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: white;
+}
+.main{
+    font-family: "quicksand",sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    padding-top: 3%;
+}
+.table{
+    padding: 2% 10%;
+    font-family: "quicksand",sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+.content{
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+.links{
+    padding-top: 4%;
+}
+.face :hover{
+    color: rgb(30, 81, 133);
+}
+.insta :hover{
+    color: rgb(182, 3, 182);
+}
+.youtube :hover{
+    color: red;
+}

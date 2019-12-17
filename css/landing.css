@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+.nav-wrapper{
+    background-image: url(../Images/Background.jpg);
+    font-family: "quicksand", sans-serif;
+}
+.right :hover{
+    color: #0D6FCF;
+}
+.img1{
+    width: 30px;
+    height: auto;
+    padding-top: 20px;
+}
+#brand{
+    font-family: "quicksand",sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+}
+.button1{
+    padding: 9px 25px;
+    color: white;
+    background-color: #0D6FCF;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: white;
+}
+body{
+    background-image: url(../Images/Background.jpg);
+}
+hr{
+    height: 2%;
+}
+.main{
+    padding: 2% 10%;
+}
+.Verba, .Maximus{
+    color: white;
+    font-family: "quicksand",sans-serif;
+    font-weight: 700;
+    font-size: 90px;
+}
+.year, .sec{
+    color: #0D6FCF;
+}
+.countdown{
+    padding: 2% 10%;
+    width: 100%;
+}
+.signify{
+    color: white;
+    font-family: "quicksand", sans-serif;
+    font-size: 20px;
+    width: 100%;
+}
+.data{
+    color: white;
+    font-family: "quicksand", sans-serif;
+    font-weight: 700;
+    font-size:  50px;
+    width: 100%;
+}
+.table{
+    text-decoration: none;
+}
+.text{
+    color: white;
+    font-size: 30px;
+}
+footer{
+    font-family: "quicksand",sans-serif;
+    color: white;
+    font-size: 20px;
+}
+.insta :hover{
+    color: rgb(211, 53, 79);
+}
+.face :hover{
+    color: rgb(0, 119, 255);
+}
+.youtube :hover{
+    color:red;
+}
+.copy{
+    color: rgb(163, 158, 158);
+}

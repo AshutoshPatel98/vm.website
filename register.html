@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html class="no-js"> 
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../vm website/css/register.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="shortcut icon" type="image/png" href="..\vm website\Images\logo black no bg.png" sizes="20x20">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    </head>
+    <body>
+        <header>
+                <nav>
+                        <div class="nav-wrapper fixed">
+                          <div class="container">
+                                <a href="index.html" class="brand-logo" id="brand">Verba Maximus</a>
+                                <a href="#" class="sidenav-trigger" data-target="mobile-links">
+                                    <img class="img1" src="..\vm website\Images\hamburger.png" alt="menu">
+                                </a>
+                                <ul class="right hide-on-med-and-down">
+                                    <li><a href="home.html">Home</a></li>
+                                    <li><a href="events.html">Events</a></li>
+                                    <li><a href="#">Team</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="schedule.html">Schedule</a></li>
+                                </ul>
+                          </div> 
+                        </div>
+                      </nav>
+                      <ul class="sidenav" id="mobile-links">
+                            <li><a href="home.html">Home</a></li>
+                            <li><a href="events.html">Events</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="schedule.html">Schedule</a></li>
+                      </ul>
+        </header>
+        <main>
+            <div class="center">
+                <img src="..\vm website\Images\error.png" alt="error" class="img2">
+            </div>
+            <div class="center">
+                <p>
+                    Our portal will be up soon
+                    <br>
+                    Sorry for inconvenience 
+                </p>
+            </div>
+        </main>
+        <script>
+                $(document).ready(function(){
+                  $('.sidenav').sidenav();
+                });
+                $(document).ready(function(){
+                $('.carousel.carousel-slider').carousel();
+                });
+            </script>
+    </body>
+</html>
